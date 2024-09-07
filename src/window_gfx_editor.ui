@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>window_gfx_editor</class>
+ <widget class="QMainWindow" name="window_gfx_editor">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>291</width>
+    <height>598</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout"/>
+    </item>
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="title">
+       <string>Editing GFX00:</string>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+      <property name="checkable">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>291</width>
+     <height>27</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionLoad_GFX_page"/>
+    <addaction name="actionInsert_GFX_page"/>
+    <addaction name="actionInsert_GFX_page_to"/>
+    <addaction name="separator"/>
+    <addaction name="actionImport_GFX_page"/>
+    <addaction name="actionExport_GFX_page"/>
+   </widget>
+   <addaction name="menuFile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionLoad_GFX_page">
+   <property name="text">
+    <string>Load GFX page</string>
+   </property>
+  </action>
+  <action name="actionInsert_GFX_page">
+   <property name="text">
+    <string>Insert GFX page</string>
+   </property>
+  </action>
+  <action name="actionImport_GFX_page">
+   <property name="text">
+    <string>Import GFX page</string>
+   </property>
+  </action>
+  <action name="actionExport_GFX_page">
+   <property name="text">
+    <string>Export GFX page</string>
+   </property>
+  </action>
+  <action name="actionInsert_GFX_page_to">
+   <property name="text">
+    <string>Insert GFX page to...</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
